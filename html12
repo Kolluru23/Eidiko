@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <H1>registration form</H1>
+  </body>
+  <form>
+  <label for="a">enter your first name</label>
+    <input type="text"value=""><br>
+    <label for="a">enter your last name</label>
+    <input type="text"value=""><br>
+    <label for="a">enter your highest degree</label>
+    <input type="text"value=""><br>
+    <label for="a">enter your mobile no.</label>
+    <input type="text"value=""><br>
+     <label for="a">enter your email id</label>
+    <input type="text"value=""><br>
+     <label for="a">enter your email id</label>
+    <input type="text"value=""><br>
+    gender
+    <select id="gender"name="gender">
+      <option value="male">MALE</OPTION>
+      <option value="female">FEMALE</OPTION>
+      <option value="others">Others</OPTION>
+    </select>
+    <br>
+    <input type="reset"value="reset">
+       <input type="submit"value="submit">
+  </form>
+</html>
+      
+      
+    
