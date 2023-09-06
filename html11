@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    what is your favourite color?
+  </body>
+  <form>
+  <input type="radio"value="">
+  <h1>YELLOW</h1><br>
+  <input type="radio"value="">
+  <h2>RED</h2><br>
+    <input type="radio"value="">
+  <h2>ORANGE</h2><br>
+  </form>
+</html>
