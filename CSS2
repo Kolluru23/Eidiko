@@ -1,0 +1,17 @@
+!DOCTYPE html>
+<html>
+<head>
+<style>
+#MAHESH{
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="MAHESH">Hello World!</p>
+<p> PARAGRAPH REMAINS SAME WITHOUT ANY STYLE.</p>
+
+</body>
+</html>
