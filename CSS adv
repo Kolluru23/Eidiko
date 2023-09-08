@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 2px solid red;
+}
+
+span {
+  border: inherit;
+}
+</style>
+</head>
+<body>
+
+<h2>The inherit Keyword</h2>
+
+<div>Mahesh is an <span>Eidiko Employee</span> 
+<br>
+
+<div style="border:2px dotted blue;">Mahesh is an  <span>Eidiko Employee</span> </div>
+
+</body>
+</html>
+
+
