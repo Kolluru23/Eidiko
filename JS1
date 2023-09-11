@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Java Script 1st code</h2>
+
+<p id="Mahesh">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("Mahesh").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+</body>
+</html>
