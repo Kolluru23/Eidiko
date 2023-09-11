@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+const person = {
+  firstName: "mahesh",
+  lastName : "kolluru",
+  id     :  1079
+};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " " + person.lastName;
+</script>
+
+</body>
+</html>
+
+
