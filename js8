@@ -1,0 +1,10 @@
+let a=parseInt(prompt())
+let b=parseInt(prompt())
+if(a>b)
+{
+    console.log("true");
+}
+else
+{
+    console.log("false")
+}
