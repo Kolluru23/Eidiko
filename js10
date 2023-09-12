@@ -1,0 +1,13 @@
+class animal
+{
+    constructor(animal,bird,fish)
+    {
+        this.animal=animal;
+        this.bird=bird;
+        this.fish=fish;
+        
+    }
+}
+    let animal1=new animal('lion','parrot','whale');
+
+console.log(animal1);
