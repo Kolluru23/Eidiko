@@ -1,0 +1,17 @@
+class ex
+{
+  constructor(brand)
+  {
+    this.name=brand;
+  }
+  get cname()
+  {
+    return this.name;
+  }
+  set cname(x)
+  {
+    this.name=x;
+  }
+}
+  const mycar=new ex("tata");
+  console.log(mycar);
