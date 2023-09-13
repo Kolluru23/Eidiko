@@ -1,0 +1,10 @@
+const a=
+{
+  b:"ramu",rno:238,clg:"VJIT",
+  k:
+  {
+    name:"mahesh",
+     thing:"bat"
+  }
+}
+console.log(a.k.name)
