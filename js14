@@ -1,0 +1,5 @@
+const a=new Set();
+a.add("red");
+a.add("blue");
+a.add("green");
+console.log(a.size);
