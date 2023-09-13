@@ -1,0 +1,2 @@
+const a={b:"ramu",rno:238,clg:"VJIT"}
+console.log(a.b);
