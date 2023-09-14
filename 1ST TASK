@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<br/>The counter is
+<p id="first">0</p>
+<br/>
+<button onclick="myFunction()">Click me</button>
+<script>
+function myFunction()
+{
+var clicks=document.getElementById("first").innerHTML;
+clicks++;
+document.getElementById("first").innerHTML=clicks;
+}
+</script>
+</body>
+</html>
