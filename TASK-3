@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html>
 <body>
-<select onchange="changing()"
-id="selecting">
-<option value="select"selected>select</option>
-<option value="name">name</option>
-<option value="id">id</option>
+<select onchange="change()"
+id="selecting"style="visibility:visible;">
+<option value="Select">Select</option>
+<option value="Name">Name</option>
+<option value="Id">Id</option>
 </select>
-<select onchange="changing()"id="selectingname" style="visibilty:hidden;">
-<option value="name1">Mahesh</option>
-<option value="name2">Vamshi</option>
-<option value="name3">Manoj</option>
+<select onchange="change1()"id="selectingname" style="visibility:hidden;">
+<option value="name1">Dinesh</option>
+<option value="name2">Nithin</option>
+<option value="name3">Sumanth</option>
 </select>
-<select onchange="changing2()"id="selectingid"style="visibility:hidden;">
-<option value="name1">601</option>
-<option value="name2">602</option>
-<option value="name3">603</option>
+<select onchange="change2()"id="selectingid"style="visibility:hidden;">
+<option value="name1">1</option>
+<option value="name2">10</option>
+<option value="name3">5</option>
 </select>
-<select onchange="changing2()"id="selectingnone"style="visibility:hidden;">
-<option value="name2"></option>
+<select onchange="change3()"id="selectingnone"style="visibility:visible;">
+<option value="name1">        </option>
+<option value="name2">        </option>
+<option value="name3">        </option>
 
 </select>
 <script>
-function changing()
+function change()
 {
 var x=document.getElementById("selecting").value;
-if(x=="name")
+if(x=="Name")
 {
 document.getElementById("selectingname").style.visibility="visible";
 document.getElementById("selectingid").style.visibility="hidden";
 document.getElementById("selectingnone").style.visibility="hidden";
 }
-else if(x=="id")
+else if(x=="Id")
 {
 document.getElementById("selectingid").style.visibility="visible";
 document.getElementById("selectingname").style.visibility="hidden";
 document.getElementById("selectingnone").style.visibility="hidden";
 }
-else if(x=="select")
+else if(x=="Select")
 {
 document.getElementById("selectingid").style.visibility="hidden";
 document.getElementById("selectingname").style.visibility="hidden";
-document.getElementById("selectingnone").style.visibility="hidden";
+document.getElementById("selectingnone").style.visibility="visible";
 }
 }
 </script>
