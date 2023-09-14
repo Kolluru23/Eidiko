@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+    Select an option:
+    <select id="select1" onchange="myFunction()">
+        <option value="name">Name</option>
+        <option value="id">ID</option>
+    </select>
+
+Result:
+    <select id="select2">
+    </select>
+
+    <script>
+        let names = ["Manoj", "Mahesh", "Vamshi"];
+        let ids = [1, 2, 3];
+
+        function myFunction() {
+            let a1= document.getElementById("select1");
+            let a2= document.getElementById("select2");
+            select2.innerHTML = ""; 
+
+            if (select1.value === "name") {
+                for (let i = 0; i < names.length; i++) {
+                    let option = document.createElement("option");
+                    option.text = names[i];
+                    select2.add(option);
+                }
+            } else if (select1.value === "id") {
+                for (var i = 0; i < ids.length; i++) {
+                    var option = document.createElement("option");
+                    option.text = ids[i];
+                    select2.add(option);
+                }
+            }
+        }
+        myFunction();
+       
+    </script>
+</body>
+</html>
+
+
