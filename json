@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+const m1 = {name:"Mahesh", age:10, city:"Hyderabad"};
+document.getElementById("demo").innerHTML = m1.name;
+</script>
+
+</body>
+</html>
