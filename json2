@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+const m1= {name: "mallesh", age: 22, city: "Mumbai"};
+const m2= JSON.stringify(m1);
+document.getElementById("demo").innerHTML = m2;
+</script>
+
+</body>
+</html>
