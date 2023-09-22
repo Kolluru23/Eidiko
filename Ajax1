@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="demo">
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  const a= new XMLHttpRequest();
+  a.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  a.open("GET", "ajax_info.txt");
+  a.send();
+}
+</script>
+
+</body>
+</html>
